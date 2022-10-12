@@ -1,0 +1,39 @@
+This package was debianized by Florian Hinzmann <fh@debian.org> on
+Mon, 11 Sep 2000 15:27:29 +0200.
+
+It was downloaded from CPAN. http://www.cpan.org
+
+Upstream author: Mike Wong <mike_w3@pacbell.net>
+Old upstream author: Jonathan Eisenzopf <eisen@pobox.com>
+
+
+Note regarding the copyright: 
+
+The copyright of the upstream package refers to the Perl license.
+That is:
+
+    Copyright 1989-2001, Larry Wall  All rights reserved.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of either:
+
+    a) the GNU General Public License as published by the Free Software
+       Foundation; either version 1, or (at your option) any later
+       version, or
+
+    b) the "Artistic License" which comes with Perl.
+
+    On Debian GNU/Linux systems, the complete text of the GNU General
+    Public License can be found in /usr/share/common-licenses/GPL' and
+    the Artistic Licence in /usr/share/common-licenses/Artistic'.
+
+
+
+Copyright:
+
+COPYRIGHT AND LICENSE
+
+  Copyright © 2002 Mike Wong. All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.

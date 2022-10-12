@@ -1,0 +1,118 @@
+libxml-dumper-perl (0.81-1.3) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 16:11:36 +0100
+
+libxml-dumper-perl (0.81-1.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Move to debhelper compat level 9. (Closes: #817563)
+  * Move debhelper to Build-Depends (from Build-Depends-Indep) to satisfy clean
+    target.
+
+ -- Chris Lamb <lamby@debian.org>  Mon, 26 Sep 2016 23:44:25 +0200
+
+libxml-dumper-perl (0.81-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix "FTBFS with perl 5.22 in experimental (MakeMaker changes)":
+    use DESTDIR in debian/rules.
+    (Closes: #797186)
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 06 Sep 2015 18:32:41 +0200
+
+libxml-dumper-perl (0.81-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Florian Hinzmann <fh@debian.org>  Tue, 18 Apr 2006 19:00:18 +0200
+
+libxml-dumper-perl (0.79-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bumped Standards-Version to 3.6.2.
+  * Removed chmod from debian/rules as it is not needed anymore.
+  * Corrected perl path of profile script shipped in doc/examples.
+
+ -- Florian Hinzmann <fh@debian.org>  Tue, 11 Oct 2005 15:23:12 +0200
+
+libxml-dumper-perl (0.71-1) unstable; urgency=low
+
+  * New upstream release.
+  * Using debhelper version 4.
+  * Make copyright file even more verbose (Closes: bug#157671).
+  * Added watch file.
+
+ -- Florian Hinzmann <fh@debian.org>  Sun, 22 Aug 2004 19:43:17 +0200
+
+libxml-dumper-perl (0.67-1) unstable; urgency=low
+
+  * New upstream version.
+  * Bumped standards version, no changes to package required.
+
+ -- Florian Hinzmann <fh@debian.org>  Fri,  7 Nov 2003 01:16:22 +0100
+
+libxml-dumper-perl (0.63-2) unstable; urgency=low
+
+  * Added new maintainer to debian/copyright.
+  * Changed priority from extra to optional in the package.
+    Someone did change to override file before and I assume
+    it happened intentional.
+  * Added libcompress-zlib-perl to suggest field. XML::Dumper reads
+    and writes compressed files if Compress::Zlib is available.
+
+ -- Florian Hinzmann <fh@debian.org>  Fri, 18 Jul 2003 09:53:54 +0200
+
+libxml-dumper-perl (0.63-1) unstable; urgency=low
+
+  * New upstream version.
+  * IMPORTANT: ABI changed since v0.4. Upstream documentation says:
+      >> To correct for the API change, simply don't parse the XML
+         before feeding it to XML::Dumper. <<
+
+ -- Florian Hinzmann <fh@debian.org>  Fri, 18 Jul 2003 00:39:47 +0200
+
+libxml-dumper-perl (0.4-4) unstable; urgency=low
+
+  * Mention existence of /usr/share/perl/copyright in
+    my copyright file (see bug#157614 ).
+  * No double examples directories anymore (closes: bug#162106)
+  * Bumped Standards-Version.
+  * Changed Build-Depends to Build-Depends-Indep.
+  * Adjusted version of build dependency on debhelper:
+    Now ( >= 3.0.18 ) because I do use ${perl:Depends}.
+
+ -- Florian Hinzmann <fh@debian.org>  Fri, 17 Jan 2003 11:42:03 +0100
+
+libxml-dumper-perl (0.4-3) unstable; urgency=low
+
+  * Added versioned Build-Depends for perl and debhelper according
+    to perl policy version 1.17.
+
+ -- Florian Hinzmann <fh@debian.org>  Fri, 23 Feb 2001 13:21:41 +0100
+
+libxml-dumper-perl (0.4-2) unstable; urgency=low
+
+  * Moved Build-Depends from package to source section in file control.
+
+ -- Florian Hinzmann <fh@debian.org>  Tue, 19 Sep 2000 17:38:15 +0200
+
+libxml-dumper-perl (0.4-1) unstable; urgency=low
+
+  * Initial Debian release.
+
+ -- Florian Hinzmann <fh@debian.org>  Tue, 12 Sep 2000 17:06:35 +0200
+
+libxml-dumper-perl (0.4-0.1) unstable; urgency=low
+
+  * Initial Release.
+  * Some editing of debian/* files has to be done. 
+    V0.1 deb is for internal use only.
+
+ -- Florian Hinzmann <fh@debian.org>  Mon, 11 Sep 2000 15:27:29 +0200
+
+Local variables:
+mode: debian-changelog
+End:
